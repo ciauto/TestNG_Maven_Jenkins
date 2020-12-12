@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10059" started-at="2019-02-20T22:54:17Z" finished-at="2019-02-20T22:54:27Z">
+  <suite started-at="2019-10-19T00:16:46Z" name="Default suite" finished-at="2019-10-19T00:16:52Z" duration-ms="5772">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10059" started-at="2019-02-20T22:54:17Z" finished-at="2019-02-20T22:54:27Z">
+    <test started-at="2019-10-19T00:16:46Z" name="Default test" finished-at="2019-10-19T00:16:52Z" duration-ms="5772">
       <class name="testcases.reg_testcase1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.reg_testcase1@457e2f02]" name="setUp" is-config="true" duration-ms="4870" started-at="2019-02-20T17:54:17Z" finished-at="2019-02-20T17:54:22Z">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.reg_testcase1@50a7bc6e]" started-at="2019-10-18T20:16:46Z" name="setUp" finished-at="2019-10-18T20:16:49Z" duration-ms="2898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateHomePageTitle()[pri:1, instance:testcases.reg_testcase1@457e2f02]" name="validateHomePageTitle" duration-ms="1023" started-at="2019-02-20T17:54:22Z" finished-at="2019-02-20T17:54:23Z">
+        <test-method signature="validateHomePageTitle()[pri:1, instance:testcases.reg_testcase1@50a7bc6e]" started-at="2019-10-18T20:16:49Z" name="validateHomePageTitle" finished-at="2019-10-18T20:16:50Z" duration-ms="814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHomePageTitle -->
-        <test-method status="PASS" signature="login()[pri:2, instance:testcases.reg_testcase1@457e2f02]" name="login" duration-ms="3313" started-at="2019-02-20T17:54:23Z" finished-at="2019-02-20T17:54:27Z">
+        <test-method signature="login()[pri:2, instance:testcases.reg_testcase1@50a7bc6e]" started-at="2019-10-18T20:16:50Z" name="login" finished-at="2019-10-18T20:16:52Z" duration-ms="1340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.reg_testcase1@457e2f02]" name="tearDown" is-config="true" duration-ms="810" started-at="2019-02-20T17:54:27Z" finished-at="2019-02-20T17:54:27Z">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.reg_testcase1@50a7bc6e]" started-at="2019-10-18T20:16:52Z" name="tearDown" finished-at="2019-10-18T20:16:52Z" duration-ms="685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

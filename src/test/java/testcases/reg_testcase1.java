@@ -28,6 +28,7 @@ public class reg_testcase1 {
 	public void login() {
 		driver.findElement(By.id("signin_button")).click();
 		System.out.println(driver.getTitle());
+		System.out.println("This is a new change");
 		driver.findElement(By.id("user_login")).sendKeys("username");
 		driver.findElement(By.id("user_password")).sendKeys("password");
 		driver.findElement(By.name("submit")).click();
