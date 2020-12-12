@@ -29,7 +29,7 @@ public class reg_testcase1 {
 		driver.findElement(By.id("signin_button")).click();
 		System.out.println(driver.getTitle());
 		driver.findElement(By.id("user_login")).sendKeys("username");
-		driver.findElement(By.id("user_password")).sendKeys("password1");
+		driver.findElement(By.id("user_password")).sendKeys("password");
 		driver.findElement(By.name("submit")).click();
 		System.out.println(driver.getTitle());
 		String actual=driver.findElement(By.xpath("//a[@href='/bank/redirect.html?url=account-summary.html']")).getText();
